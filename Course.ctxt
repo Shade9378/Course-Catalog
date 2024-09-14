@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Course
+comment0.text=\r\n\ The\ Course\ class\ allows\ information\ about\ courses\ at\ a\ University\ to\ be\ stored\ and\ manipulated.\r\n\ Each\ Course\ has\ a\ department,\ a\ course\ number\ and\ a\ number\ of\ credits.\ Each\ course\ also\ has\ \r\n\ a\ competency\ status\ field\ which\ can\ be\ W\ (writing),\ Q\ (quantitatve),\ S\ (speaking).\ If\ the\ course\ \r\n\ is\ not\ a\ W,\ Q,\ or\ S\ course\ its\ competency\ field\ should\ be\ X.\ \ Each\ couprse\ also\ has\ a\ group\ field\r\n\ which\ can\ be\ any\ of\ the\ groups\ 1,\ 2,\ 3,\ 4,\ 5,\ 6\ (or\ 0\ if\ the\ course\ does\ not\ carry\ group\ credit).\r\n\ \r\n\ This\ version\ of\ the\ class\ uses\ Strings\ to\ store\ each\ instance\ field.\r\n\ \r\n\ Methods\ are\ provided\ to\ construct\ a\ new\ course,\ to\ print\ a\ course,\ and\ to\ access\ any\ of\ the\ courses\ \r\n\ instance\ fields.\r\n\ @author\ Computer\ Science\ Department\ \r\n\ @version\ October,\ 2007,\ Version\ 1.0\r\n
+comment1.params=initDepartment\ initCourseNumber\ initCompetency\ initCredit\ initDistArea
+comment1.target=Course(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\ Constructor\ for\ a\ Course.\ \ This\ method\ takes\ initial\ values\ for\ the\ course's\ fields\ as\ \r\n\ parameters\ and\ then\ assigns\ the\ instance\ fields\ values\ based\ on\ these\ parameters.\r\n\ @param\ initDepartment\ -\ Value\ to\ initialize\ department\ instance\ field\ to.\r\n\ @param\ initCourseNumber\ -\ Value\ to\ initialize\ course\ number\ instance\ field\ to.\r\n\ @param\ initCompetency\ -\ Value\ to\ initialize\ competency\ instance\ field\ to.\r\n\ @param\ initCredit\ -\ Value\ to\ initalize\ credit\ instance\ field\ to.\r\n\ @param\ initGroup\ -\ Value\ to\ initialize\ group\ instance\ field\ to.\r\n
+comment2.params=
+comment2.target=void\ displayCourse()
+comment2.text=\ This\ method\ displays\ all\ of\ the\ fields\ for\ a\ Course\ with\ the\ department\ and\ course\r\n\ number\ displayed\ together\ (e.g.,\ CSC121).\ \ The\ number\ of\ credits\ the\ course\ is\ worth\r\n\ are\ also\ displayed\ along\ with\ an\ indication\ of\ whether\ or\ not\ the\ course\ carries\ group\r\n\ or\ competency\ credit.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDepartment()
+comment3.text=\ Simple\ accessor\ that\ returns\ the\ department\ for\ a\ course.\r\n\ @return\ -\ A\ String\ which\ is\ the\ department\ for\ the\ Course.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getCourseNumber()
+comment4.text=\ Simple\ accessor\ that\ returns\ the\ course\ Number\ for\ a\ course.\r\n\ @return\ -\ An\ String\ which\ is\ the\ course\ number\ for\ the\ Course.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getCompetency()
+comment5.text=\ Simple\ accessor\ that\ returns\ the\ competency\ status\ for\ a\ course.\r\n\ @return\ -\ A\ String\ (W,\ Q,\ S)\ which\ is\ competency\ for\ the\ Course\ or\ X\r\n\ if\ there\ is\ no\ competency\ for\ this\ course.\r\n
+comment6.params=
+comment6.target=java.lang.String\ getCredit()
+comment6.text=\ Simple\ accessor\ that\ returns\ the\ number\ of\ credits\ the\ course\ is\ worth.\r\n\ @return\ -\ A\ String\ which\ is\ the\ number\ of\ credits\ for\ the\ Course.\r\n
+comment7.params=
+comment7.target=java.lang.String\ getDistArea()
+comment7.text=\ Simple\ accessor\ that\ returns\ the\ group\ the\ course\ belongs\ to.\r\n\ @return\ -\ A\ String\ which\ is\ the\ group\ number\ of\ 0\ if\ there\ is\ no\ group\ for\ this\ course.\r\n
+numComments=8

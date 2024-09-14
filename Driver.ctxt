@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Driver
+comment0.text=\r\n\ The\ Driver\ class\ presents\ a\ simple\ GUI\ that\ can\ be\ used\ to\ search\ courses.\ The\r\n\ GUI\ allows\ the\ user\ to\ specify\ a\ department\ to\ use\ as\ a\ search\ criterion.\r\n\ \r\n\ @author\ Computer\ Science\ Department\ \r\n\ @version\ November,\ 2007\r\n
+comment1.params=
+comment1.target=Driver()
+comment1.text=\r\n\ The\ constructor\ for\ the\ Driver\ class\ creates\ the\ GUI\ and\ calls\r\n\ a\ method\ to\ fill\ the\ department\ combo\ box\ with\ initial\ values.\ It\r\n\ then\ displays\ this\ comboBox\ on\ the\ pane.\r\n
+comment2.params=
+comment2.target=void\ fillDepartmentCombo()
+comment2.text=\r\n\ This\ method\ fills\ the\ departmentCombo\ box\ with\ initial\ values.\ \r\n
+comment3.params=
+comment3.target=void\ fillCompetencyCombo()
+comment4.params=event
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.text=\r\n\ This\ method\ is\ called\ when\ the\ user\ clicks\ on\ a\ button\ in\ the\ Interface.\r\n\ The\ method\ checks\ to\ see\ if\ the\ user\ clicked\ on\ the\ SEARCH\ button.\ \ If\ so,\r\n\ it\ prints\ the\ department\ that\ is\ currently\ selected\ by\ the\ Department\r\n\ Combo\ box.\r\n
+numComments=5
